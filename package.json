@@ -166,7 +166,7 @@
       {
         "id": "twirl-html",
         "extensions": [
-          "*.scala.html"
+          ".scala.html"
         ],
         "aliases": [
           "Twirl HTML"
