@@ -141,12 +141,6 @@
         { "include": "$self" }
       ]
     },
-    "twirl-in-html": {
-      "name": "meta.embedded.twirl.inlineTwirl",
-      "begin": "<",
-      "end": ">",
-      "patterns": [{ "include": "$self" }, { "include": "#html-inline-attr" }]
-    },
     "twirl-template-params": {
       "name": "meta.embedded.twirl.templateHeader.parameters.ident",
       "begin": "(@)([\\s]+[(][^)]*\\))(\\g<2>*)",
